@@ -1,0 +1,47 @@
+*,*:before,*::after{ 
+    padding: 0; 
+    margin: 0; 
+    /* border: 1px solid red; */
+  }
+
+body {
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.indexbody {
+  background-image: url(../images/books.jpg);
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+  z-index: -1
+}
+.landing {
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 4em;
+  text-decoration: none;
+  margin-top: 375px;
+}
+
+.words {
+ text-align: left;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.sign {
+  text-align: center;
+  margin-top: 100px
+}
